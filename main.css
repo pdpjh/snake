@@ -1,0 +1,41 @@
+#main {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 700px;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+#main .stage {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 450px;
+  height: 450px;
+  transform: translate(-50%);
+  border: 10px solid black;
+}
+#main .stage .snake > div {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+  border: 3px solid #b7d4a8;
+}
+#main .stage > .food {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+  border: 3px solid #b7d4a8;
+}
+#main .score-panel {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 450px;
+  height: 100px;
+  transform: translate(-50%);
+}
